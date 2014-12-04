@@ -10,6 +10,7 @@ BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5Gui)
 BuildRequires:	pkgconfig(Qt5Widgets)
 BuildRequires:	pkgconfig(Qt5PrintSupport)
+BuildRequires:	cmake(Qt5LinguistTools)
 BuildRequires:	qt5-devel
 BuildRequires:	cmake
 BuildRequires:	bzip2-devel
