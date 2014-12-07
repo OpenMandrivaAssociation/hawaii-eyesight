@@ -1,7 +1,7 @@
 Summary:	Hawaii desktop image viewer
 Name:		hawaii-eyesight
 Version:	0.1.2
-Release:	1
+Release:	2
 Group:		Graphical desktop/Other
 License:        GPLv2+
 URL:		http://www.maui-project.org
@@ -22,7 +22,7 @@ Image viewer for the Hawaii desktop.
 %setup -q
 
 %build
-%cmake
+%cmake_qt5
 %make
 
 %install
