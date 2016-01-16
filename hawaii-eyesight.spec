@@ -1,19 +1,15 @@
 Summary:	Hawaii desktop image viewer
 Name:		eyesight
 Version:	0.1.4
-Release:	1
+Release:	2
 Group:		Graphical desktop/Other
 License:        GPLv2+
-URL:		http://www.maui-project.org
-Source0:	http://sourceforge.net/projects/mauios/files/hawaii/%{name}/%{name}-%{version}.tar.xz
+URL:		http://www.hawaiios.org
+Source0:	https://github.com/hawaii-desktop/eyesight/releases/download/v%{version}/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(Qt5Core)
-BuildRequires:	pkgconfig(Qt5Gui)
-BuildRequires:	pkgconfig(Qt5Widgets)
 BuildRequires:	pkgconfig(Qt5PrintSupport)
 BuildRequires:	cmake(Qt5LinguistTools)
-BuildRequires:	qt5-devel
 BuildRequires:	cmake
-BuildRequires:	bzip2-devel
 
 %description
 Image viewer for the Hawaii desktop.
