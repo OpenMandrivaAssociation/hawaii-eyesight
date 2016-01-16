@@ -34,4 +34,5 @@ Image viewer for the Hawaii desktop.
 %dir %{_datadir}/eyesight/translations
 %{_bindir}/eyesight
 %{_datadir}/applications/eyesight.desktop
+%{_datadir}/appdata/eyesight.appdata.xml
 %{_datadir}/eyesight/translations/??.qm
