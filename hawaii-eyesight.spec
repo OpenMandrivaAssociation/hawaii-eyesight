@@ -11,6 +11,7 @@ BuildRequires:	pkgconfig(Qt5PrintSupport)
 BuildRequires:	cmake(Qt5LinguistTools)
 BuildRequires:	cmake
 BuildRequires:	qt5-macros
+BuildRequires:	qmake5
 
 %description
 Image viewer for the Hawaii desktop.
