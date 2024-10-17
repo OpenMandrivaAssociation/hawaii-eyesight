@@ -4,7 +4,7 @@ Version:	0.1.4
 Release:	2
 Group:		Graphical desktop/Other
 License:        GPLv2+
-URL:		http://www.hawaiios.org
+URL:		https://www.hawaiios.org
 Source0:	https://github.com/hawaii-desktop/eyesight/releases/download/v%{version}/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5PrintSupport)
